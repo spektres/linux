@@ -1,0 +1,3 @@
+sudo apt update - проверяем новые пакеты
+sudo apt install openssh-server - установка ssh
+ssh name@ip_a (22)- подключиться к серверу (его порт)
