@@ -1,0 +1,16 @@
+СОЗДАНИЕ ПОЛЬЗОВАТЕЛЯ
+
+1)sudo useradd -s /bin/bash -m -d /home/diruser nameuser - создать
+  sudo passwd nameuser - задать пароль пользователю
+2)sudo adduser nameuser2
+tail /ect/passwd - проверить
+
+РЕДАКТИРОВАНИЕ ПОЬЗОВАТЕЛЕЙ
+sudo usermod -aG adm nameuser - добавить польз. в доп. группу
+sudo id username - проверить
+sudo usermod -g www-data nameuser - сменить основную группу пользвателя
+
+УДАЛЕНИЕ ПОЛЬЗОВАТЕЛЯ
+sudo userdel nameuser
+
+man usermod - документация
